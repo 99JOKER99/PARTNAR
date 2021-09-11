@@ -92,7 +92,7 @@ client.on("message", msg => {
 });
 /////Reklam////
 client.on('ready' , () => {
-var join = client.channels.get("id voice")/// ئاید ڤۆیس
+var join = client.channels.get("876085751555686400")/// ئاید ڤۆیس
 if (join) join.join()
 })
 
@@ -102,13 +102,13 @@ if(message.channel.type === 'dm') {
  
 if (message.content.startsWith("https://discord.gg/")) {
  
-  message.author.send(`> link server`)/// لینکە سیرڤەرە خۆت
+  message.author.send(`>https://discord.gg/EFRyUCMpub`)/// لینکە سیرڤەرە خۆت
  
-  client.channels.get("id text").send(
+  client.channels.get("876085740126228530").send(
 `> Nerdra la layan <@${message.author.id}> 
 ${message.content}`)
 }
     }
         })
 
-client.login("");
+client.login("ODg0NDY1MzI1OTkzNzcxMDQ4.YTY4hg.NL1-0RhX11V0ydEhs6Y3I2lXX1E");
